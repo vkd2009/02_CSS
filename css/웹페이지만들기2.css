@@ -1,0 +1,121 @@
+:root{
+    --main-color : grey;
+    
+  }
+  
+  *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  
+  }
+  
+  a{
+      color : black;
+      text-decoration: none; /
+  }
+  
+  ul{
+      list-style: none; 
+  }
+  
+  body{
+      display: flex;
+      flex-direction: column;
+  
+      
+      min-width: 768px;
+      min-height: 100vh;  
+  }
+  
+  
+  
+  /* ----------------- header ----------------- */
+  header{
+      
+      padding: 20px 0; 
+      border-bottom: 2px solid var(--main-color);
+  
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  
+  .header-container{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      height: 70px;
+      width: 100%;    
+
+      
+  }
+  .header-container > div {
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-container-left *{
+    height: 100%;
+    position: relative;
+    left : 300px
+   
+  } 
+
+  .header-container-right a{
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 100px;
+    
+  }
+
+
+
+  /* ---------  nav --------- */
+  nav{
+    padding: 5px 10px; 
+    border-bottom: 2px solid var(--main-color);
+    background-color: white;
+    position: sticky;
+    top : -1px;
+    z-index: 1000; 
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+}
+
+.navbar > li{
+    width: 20%;
+    height: 40px;
+
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar > li > a{
+    font-size: 1.4em; 
+    font-weight: bold;
+    color: black;
+    
+
+    padding: 5px 10px;
+    text-align: center; 
+}
+
+
+.navbar > li > a:hover{
+  color:tomato;
+}
+
+
+.baneer{
+    padding: 0px 15%;
+    
+}
+ 
