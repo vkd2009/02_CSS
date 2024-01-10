@@ -60,14 +60,19 @@
   .header-container-left *{
     height: 100%;
     position: relative;
-    left : 300px
+    
    
   } 
 
   .header-container-right a{
     font-size: 1.2em;
     font-weight: bold;
-    padding: 100px;
+    padding: 50px;
+    width:  50%;
+    
+    
+    
+    
     
   }
 
@@ -90,7 +95,7 @@
 
 .navbar > li{
     width: 20%;
-    height: 40px;
+    height: 50px;
 
     
     display: flex;
@@ -115,7 +120,168 @@
 
 
 .baneer{
-    padding: 0px 15%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     
 }
+
+
+
+.content-out{
+    
+    margin: 80px 0 20px;
+    
+}
+
+.ban1{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap:nowrap
+    
+}
+
+.ban1-1{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 20px;
+    
+}
+.ban1-1-1{
+    width: 20%;
+    display: flex;
+    flex-direction: center;
+    text-align: center;
+}
+
+
+
+.ban1-2{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+.ban1-3{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+.button{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    
+}
+
+.ban2title{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 200px 0 10px;
+    font-size: 60px;
+}
+
+.ban2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.ban2-1{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 15px;
+    margin: 10px;
+}
+.ban2-2{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 15px;
+    margin: 10px;
+}
+.ban2-3{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 15px;
+    margin: 10px;
+}
+.ban2-4{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 15px;
+    margin: 10px;
+}
+
+
+
+ .foot{
+    display: flex;
+
+    background-color: rgba(0, 0, 0, 0.9);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    justify-content: space-evenly ;
+
+    color: white;
+    display: flex;
+    
+ }
+
+ .foot > dl > dt{
+    font-size: 30px;
+ }
+
+ .foot1{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+ .foot2{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+ .foot3{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+
+ .end{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    text-align: end;
+ }
  
+ .foot > dl > dd{
+    text-decoration-line:underline
+    var(--main-color)
+ }
